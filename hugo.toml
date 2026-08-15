@@ -1,0 +1,48 @@
+baseURL = "https://ndflj.github.io/boke/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+title = "ndflj 的博客"
+theme = "PaperMod"
+enableRobotsTXT = true
+enableEmoji = true
+
+[params]
+  env = "production"
+  title = "ndflj 的博客"
+  description = "技术博客：AI 智能体、开发工具与工程实践"
+  keywords = ["Blog", "Hugo", "AI", "Hermes Agent"]
+  author = "ndflj"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+[params.homeInfoParams]
+  Title = "ndflj 的博客"
+  Content = "记录 AI 智能体、开发工具与工程实践。"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/ndflj"
+
+[[menu.main]]
+  identifier = "home"
+  name = "首页"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "archives"
+  name = "归档"
+  url = "/archives/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "tags"
+  name = "标签"
+  url = "/tags/"
+  weight = 3
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
