@@ -1,6 +1,6 @@
 ---
 title: "一条命令生成三层多智能体流水线：Hermes Agent 的 Kanban Swarm"
-date: "2026-08-16"
+date: "2026-08-16T00:00:00+08:00"
 tags: ["Hermes Agent", "Kanban", "多智能体", "AI 开发"]
 author: "ndflj"
 ---
